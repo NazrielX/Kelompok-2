@@ -25,3 +25,36 @@ body{
     margin-left: 20px;
 }
 
+.film-card-re-wtrc {
+  width: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background: #0a1e30;
+}
+
+.film-poster {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+.film-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+  color: white;
+}
+
+.film-overlay-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.film-overlay-meta {
+  font-size: 12px;
+  opacity: 0.8;
+}
