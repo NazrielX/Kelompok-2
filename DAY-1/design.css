@@ -5,6 +5,7 @@ body{
     font-family: Arial, sans-serif;
 }
 
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -19,7 +20,7 @@ body{
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
