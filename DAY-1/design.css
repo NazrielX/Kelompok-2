@@ -1,18 +1,19 @@
-body {
+body{
     background-color: #0f0f0f;
     color: white;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
-.navbar {
+
+.navbar{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background: #111;
 }
 
-.navbar h1 {
+.navbar h1{
     color: red;
     padding: 0;
     margin: 0;
@@ -20,6 +21,11 @@ body {
 }
 
 .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.navbar a{
     color: white;
     text-decoration: none;
     margin-left: 20px;
