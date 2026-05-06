@@ -28,7 +28,7 @@ body{
 
 .banner {
     height: 300px;
-    background: url('https://via.placeholder.com/1200x300') no-repeat center/cover;
+    background: url() no-repeat center/cover;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -47,7 +47,6 @@ body{
 .section h2 {
     margin-bottom: 15px;
 }
-
 
 .film-list {
     display: flex;
